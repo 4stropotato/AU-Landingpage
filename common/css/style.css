@@ -252,7 +252,7 @@ footer {
   .copyright {
     font-size: 80%;
   }
-  @media (max-width: 404px) or (-webkit-min-device-pixel-ratio:3) {
+  @media (max-width: 404px) or (-webkit-min-device-pixel-ratio:3), (min--moz-device-pixel-ratio: 3), (-o-min-device-pixel-ratio: 3/1), (min-device-pixel-ratio: 3) {
     #image_full {
       display: none;
     }
