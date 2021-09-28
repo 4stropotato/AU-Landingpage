@@ -1,0 +1,283 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff
+}
+
+.navbar {
+  background-color: #FFF;
+  box-shadow: 0 2px 40px rgba(0, 0, 0, .20);
+  padding: 1% 0;
+  font-size: 1.2em;
+}
+
+.navbar-brand {
+  margin: 10;
+  padding: 5;
+  max-width: 100px;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #909090;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active {
+  color: #555555;
+}
+
+.padding img {
+  width: 100%;
+}
+
+#iphone8 {
+  padding: 1%;
+  padding-top: calc(85px + 1%);
+  margin: 0 auto;
+  width: 45%;
+  left: auto;
+  right: auto;
+}
+
+.container.flags {
+  background-color: #1e2555;
+  background-size: cover;
+  display: table;
+  float: center;
+  margin-top: 1%;
+}
+
+#flags {
+  padding-right: 5%;
+}
+
+.icons {
+  display: inline-block;
+  float: right;
+  height: auto;
+  width: 8%;
+}
+
+#image_full {
+  display: block;
+}
+
+#image_mobile {
+  display: none;
+}
+
+#cover {
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+#scenario {
+  margin: 2%;
+}
+
+.btntxt1 {
+  position: absolute;
+  left: 30%;
+  bottom: 10%;
+  width: 30%;
+  height: auto;
+}
+
+.btntxt2 {
+  margin: 6% 5% 3% 5%;
+}
+
+.btntxt3 {
+  position: relative;
+  margin: 5%;
+  margin-top: -23%;
+}
+
+#topline {
+  margin-top: 3%;
+  font-weight: 900;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1;
+}
+
+.freedial {
+  max-width: 7%;
+  height: auto;
+}
+
+.num {
+  font-size: 150%;
+  font-weight: bolder;
+  transform: scale(1, 1.4);
+}
+
+#btn3 {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+
+#midtxt {
+  margin-top: 5%;
+  text-align: center;
+  padding-left: 4%;
+  padding-right: 4%
+}
+
+.midtxt {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.midtxt2 {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+#btmtxt {
+  margin-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%
+}
+
+.btmtxt {
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.subs {
+  text-align: right;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.returntop {
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  background-color: #d6d6d6;
+  padding: 5% 5% 5% 5%;
+  color: #000;
+}
+
+.img01 {
+  float: left;
+  max-width: 20%;
+}
+
+.KDDI {
+  font-size: 130%;
+}
+
+.copyright {
+  font-size: 130%;
+}
+
+@media (min-width: 768px) {
+  .btntxt2 img {
+    max-width: 70%;
+    margin: auto;
+  }
+  .btntxt3 img {
+    max-width: 70%;
+    margin: auto;
+  }
+  #btn3 {
+    max-width: 40%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container.flags {
+    background-size: cover;
+    display: block;
+    float: center;
+    margin-top: 2%;
+  }
+  #topline {
+    margin-top: 3%;
+    font-weight: 900;
+    font-size: 11.5px;
+    text-align: center;
+    line-height: 1;
+  }
+  .freedial {
+    max-width: 7%;
+    height: auto;
+  }
+  .num {
+    font-size: 150%;
+    font-weight: bolder;
+    transform: scale(1, 1.4);
+  }
+  .midtxt {
+    font-size: 10.4px;
+    font-weight: 900;
+  }
+  .midtxt2 {
+    font-size: 11px;
+    font-weight: 900;
+  }
+  #btmtxt {
+    margin-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%
+  }
+  .btmtxt {
+    font-size: 8px;
+    font-weight: 900;
+  }
+  .subs {
+    text-align: right;
+    font-size: 10px;
+    font-weight: 900;
+  }
+  footer {
+    width: 100%;
+    background-color: #d6d6d6;
+    padding: 2%;
+    color: #000;
+  }
+  .img01 {
+    float: left;
+    max-width: 20%;
+  }
+  .KDDI {
+    font-size: 80%;
+  }
+  .copyright {
+    font-size: 80%;
+  }
+  @media (max-width: 404px) {
+    #image_full {
+      display: none;
+    }
+    #image_mobile {
+      display: block;
+    }
+    .btntxt1 {
+      left: 50%;
+      bottom: 10%;
+      width: 45%;
+      height: auto;
+    }
+    footer {
+      width: 100%;
+      background-color: #d6d6d6;
+      padding: 2%;
+      color: #000;
+    }
+    .img01 {
+      float: left;
+      max-width: 20%;
+    }
+    .KDDI {
+      font-size: 60%;
+    }
+    .copyright {
+      font-size: 60%;
+    }
