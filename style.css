@@ -1,0 +1,229 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #fff6e
+}
+
+.navbar {
+  background-color: #FFF;
+  box-shadow: 0 2px 40px rgba(0, 0, 0, .20);
+  padding: 1% 0;
+  font-size: 1.2em;
+}
+
+.navbar-brand {
+  margin: 10;
+  padding: 5;
+  max-width: 100px;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #909090;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active {
+  color: #555555;
+}
+
+.padding img {
+  width: 100%;
+}
+
+#iphone8 {
+  padding: 1%;
+  padding-top: calc(85px + 1%);
+  margin: 0 auto;
+  width: 45%;
+  left: auto;
+  right: auto;
+}
+
+.container.flags {
+  background-color: #000000;
+  background-size: cover;
+  display: table;
+  float: center;
+  margin-top: 1%;
+}
+#flags {
+  padding-right: 5%;
+}
+.icons {
+  display: inline-block;
+  float: right;
+  height: auto;
+  width: 8%;
+}
+#image_full {
+  display: block;
+}
+
+#image_mobile {
+  display: none;
+}
+
+#cover {
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+.landing-text {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.btn, .btn:active, .btn:visited {
+  background-color: #0079ff;
+  color: #FFF;
+  font-weight: 900;
+  letter-spacing: -3px;
+  position: absolute;
+  bottom: 10%;
+  right: 15%;
+
+}
+
+.btn:hover {
+  background-color: #288bf9;
+  color: #FFF;
+  font-weight: 900;
+  letter-spacing: -3px;
+}
+
+footer {
+  width: 100%;
+  background-color: #d6d6d6;
+  padding: 5% 5% 10% 5%;
+  color: #FFF;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 25px;
+  color: #FFF;
+}
+
+.fa:hover {
+  color: #D5D5D5;
+  text-decoration: none;
+}
+
+.icon {
+  max-width: 200px;
+}
+
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 980px) {
+}
+
+@media (max-width: 768px) {
+  .container.flags {
+    background-size: cover;
+    display: block;
+    float: center;
+    margin-top: 2%;
+  }
+  .btn, .btn:active, .btn:visited  {
+    bottom: 5%;
+    right: 5%;
+  }
+   h1 {
+    letter-spacing: 0;
+    font-size: 300%;
+    font-weight: 900;
+  }
+  .fa {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .icon {
+    padding-top: 5%;
+    max-width: 100px;
+  }
+}
+@media (max-width: 404px) {
+  #image_full {
+    display: none;
+  }
+  #image_mobile {
+    display: block;
+  }
+  .btn, .btn:active, .btn:visited  {
+    bottom: 5%;
+    right: 10%;
+  }
+}
+
+
+/*--- iOS Landing Page Fix
+section {
+ 	position: relative;
+ 	width: 100%;
+ 	height: 100%;
+ 	display: table;
+}
+.home-wrap {
+ 	clip: rect(0, auto, auto, 0);
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+ 	height: 100%;
+}
+#home {
+	background-image: url('img/mountains.jpeg');
+ 	position: fixed;
+ 	display: table;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+          transform: translateZ(0);
+	will-change: transform;
+	z-index: -1;
+}
+.landing-text {
+	z-index: 100;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+--*/
+
+/*--- iOS Fixed Image Fix
+figure {
+	position: relative;
+	width: 100%;
+	height: 60%;
+}
+.fixed-wrap {
+	clip: rect(0, auto, auto, 0);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#fixed {
+	background-image: url('img/background.jpg');
+	position: fixed;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+          transform: translateZ(0);
+	will-change: transform;
+}
+--*/
