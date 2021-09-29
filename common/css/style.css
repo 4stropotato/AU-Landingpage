@@ -253,7 +253,7 @@ footer {
     font-size: 80%;
   }
   /* (max-width: 428px) or (-webkit-min-device-pixel-ratio: 3) */
-  @media only screen and (min-width: 926px) and (orientation: portrait) {
+  @media only screen and (max-width: 926px) and (orientation: portrait) {
     #image_full {
       display: none;
     }
